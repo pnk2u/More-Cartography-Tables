@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "lolmcgt:oak_cartography_table",
     "lolmcgt:spruce_cartography_table",
     "lolmcgt:birch_cartography_table",
     "lolmcgt:jungle_cartography_table",
