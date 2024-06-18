@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     {
-      "id": "#lieonstudio:barrels",
+      "id": "#lieonstudio:cartography_tables",
       "required": false
     }
   ]
