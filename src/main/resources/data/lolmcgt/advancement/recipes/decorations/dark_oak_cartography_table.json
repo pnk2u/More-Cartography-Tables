@@ -1,13 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_lots_of_items": {
+    "has_paper": {
       "conditions": {
-        "slots": {
-          "occupied": {
-            "min": 10
+        "items": [
+          {
+            "items": "minecraft:paper"
           }
-        }
+        ]
       },
       "trigger": "minecraft:inventory_changed"
     },
@@ -25,14 +25,14 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "lolmcgt:dark_oak_cartography_table"
+        "recipe": "lolmcgt:vanilla_cartography_table_from_dark_oak_recipe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_lots_of_items",
+      "has_paper",
       "has_the_recipe"
     ],
     [
@@ -42,7 +42,7 @@
   ],
   "rewards": {
     "recipes": [
-      "lolmcgt:dark_oak_cartography_table"
+      "lolmcgt:vanilla_cartography_table_from_dark_oak_recipe"
     ]
   },
   "sends_telemetry_event": false

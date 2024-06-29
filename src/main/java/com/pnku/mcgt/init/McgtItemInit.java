@@ -16,7 +16,6 @@ public class McgtItemInit {
     public static final BlockItem BIRCH_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.BIRCH_CARTOGRAPHY_TABLE, new Item.Settings());
     public static final BlockItem JUNGLE_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.JUNGLE_CARTOGRAPHY_TABLE, new Item.Settings());
     public static final BlockItem ACACIA_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.ACACIA_CARTOGRAPHY_TABLE, new Item.Settings());
-    public static final BlockItem DARK_OAK_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.DARK_OAK_CARTOGRAPHY_TABLE, new Item.Settings());
     public static final BlockItem MANGROVE_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.MANGROVE_CARTOGRAPHY_TABLE, new Item.Settings());
     public static final BlockItem CHERRY_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.CHERRY_CARTOGRAPHY_TABLE, new Item.Settings());
     public static final BlockItem BAMBOO_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.BAMBOO_CARTOGRAPHY_TABLE, new Item.Settings());
@@ -30,8 +29,7 @@ public class McgtItemInit {
         registerItem(BIRCH_CARTOGRAPHY_TABLE_I, SPRUCE_CARTOGRAPHY_TABLE_I);
         registerItem(JUNGLE_CARTOGRAPHY_TABLE_I, BIRCH_CARTOGRAPHY_TABLE_I);
         registerItem(ACACIA_CARTOGRAPHY_TABLE_I, JUNGLE_CARTOGRAPHY_TABLE_I);
-        registerItem(DARK_OAK_CARTOGRAPHY_TABLE_I, ACACIA_CARTOGRAPHY_TABLE_I);
-        registerItem(MANGROVE_CARTOGRAPHY_TABLE_I, DARK_OAK_CARTOGRAPHY_TABLE_I);
+        registerItem(MANGROVE_CARTOGRAPHY_TABLE_I, ACACIA_CARTOGRAPHY_TABLE_I);
         registerItem(CHERRY_CARTOGRAPHY_TABLE_I, MANGROVE_CARTOGRAPHY_TABLE_I);
         registerItem(BAMBOO_CARTOGRAPHY_TABLE_I, CHERRY_CARTOGRAPHY_TABLE_I);
         registerItem(CRIMSON_CARTOGRAPHY_TABLE_I, BAMBOO_CARTOGRAPHY_TABLE_I);
