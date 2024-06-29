@@ -17,7 +17,6 @@ public class McgtBlockInit {
     public static final MoreCartographyTablesBlock BIRCH_CARTOGRAPHY_TABLE = new MoreCartographyTablesBlock(MapColor.PALE_YELLOW, "birch");
     public static final MoreCartographyTablesBlock JUNGLE_CARTOGRAPHY_TABLE = new MoreCartographyTablesBlock(MapColor.DIRT_BROWN, "jungle");
     public static final MoreCartographyTablesBlock ACACIA_CARTOGRAPHY_TABLE = new MoreCartographyTablesBlock(MapColor.ORANGE, "acacia");
-    public static final MoreCartographyTablesBlock DARK_OAK_CARTOGRAPHY_TABLE = new MoreCartographyTablesBlock(MapColor.BROWN, "dark_oak");
     public static final MoreCartographyTablesBlock MANGROVE_CARTOGRAPHY_TABLE = new MoreCartographyTablesBlock(MapColor.RED, "mangrove");
     public static final MoreCartographyTablesBlock CHERRY_CARTOGRAPHY_TABLE = new MoreCartographyTablesBlock(MapColor.TERRACOTTA_WHITE, BlockSoundGroup.CHERRY_WOOD, "cherry");
     public static final MoreCartographyTablesBlock BAMBOO_CARTOGRAPHY_TABLE = new MoreCartographyTablesBlock(MapColor.YELLOW, BlockSoundGroup.BAMBOO_WOOD, "bamboo");
@@ -33,7 +32,6 @@ public class McgtBlockInit {
         registerBlock(BIRCH_CARTOGRAPHY_TABLE);
         registerBlock(JUNGLE_CARTOGRAPHY_TABLE);
         registerBlock(ACACIA_CARTOGRAPHY_TABLE);
-        registerBlock(DARK_OAK_CARTOGRAPHY_TABLE);
         registerBlock(MANGROVE_CARTOGRAPHY_TABLE);
         registerBlock(CHERRY_CARTOGRAPHY_TABLE);
         registerBlock(BAMBOO_CARTOGRAPHY_TABLE);
