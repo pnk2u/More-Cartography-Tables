@@ -1,0 +1,74 @@
+{
+  "values": [
+    {
+      "structures": "#quad:is/oak",
+      "block_replacement": {
+        "targets": "minecraft:cartography_table",
+        "replacement": "lolmcgt:oak_cartography_table"
+      }
+    },
+    {
+      "structures": "#quad:is/spruce",
+      "block_replacement": {
+        "targets": "minecraft:cartography_table",
+        "replacement": "lolmcgt:spruce_cartography_table"
+      }
+    },
+    {
+      "structures": "#quad:is/birch",
+      "block_replacement": {
+        "targets": "minecraft:cartography_table",
+        "replacement": "lolmcgt:birch_cartography_table"
+      }
+    },
+    {
+      "structures": "#quad:is/jungle",
+      "block_replacement": {
+        "targets": "minecraft:cartography_table",
+        "replacement": "lolmcgt:jungle_cartography_table"
+      }
+    },
+    {
+      "structures": "#quad:is/acacia",
+      "block_replacement": {
+        "targets": "minecraft:cartography_table",
+        "replacement": "lolmcgt:acacia_cartography_table"
+      }
+    },
+    {
+      "structures": "#quad:is/mangrove",
+      "block_replacement": {
+        "targets": "minecraft:cartography_table",
+        "replacement": "lolmcgt:mangrove_cartography_table"
+      }
+    },
+    {
+      "structures": "#quad:is/cherry",
+      "block_replacement": {
+        "targets": "minecraft:cartography_table",
+        "replacement": "lolmcgt:cherry_cartography_table"
+      }
+    },
+    {
+      "structures": "#quad:is/bamboo",
+      "block_replacement": {
+        "targets": "minecraft:cartography_table",
+        "replacement": "lolmcgt:bamboo_cartography_table"
+      }
+    },
+    {
+      "structures": "#quad:is/crimson",
+      "block_replacement": {
+        "targets": "minecraft:cartography_table",
+        "replacement": "lolmcgt:crimson_cartography_table"
+      }
+    },
+    {
+      "structures": "#quad:is/warped",
+      "block_replacement": {
+        "targets": "minecraft:cartography_table",
+        "replacement": "lolmcgt:warped_cartography_table"
+      }
+    }
+  ]
+}
