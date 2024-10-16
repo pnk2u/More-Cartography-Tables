@@ -1,4 +1,4 @@
-package com.pnku.mcgt.block;
+package de.pnku.mcgt.block;
 
 import com.pnku.mcgt.MoreCartographyTables;
 import net.minecraft.core.registries.BuiltInRegistries;

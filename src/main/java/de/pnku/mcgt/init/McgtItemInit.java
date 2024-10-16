@@ -1,7 +1,7 @@
-package com.pnku.mcgt.init;
+package de.pnku.mcgt.init;
 
-import com.pnku.mcgt.MoreCartographyTables;
-import com.pnku.mcgt.block.MoreCartographyTablesBlock;
+import de.pnku.mcgt.MoreCartographyTables;
+import de.pnku.mcgt.block.MoreCartographyTablesBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
