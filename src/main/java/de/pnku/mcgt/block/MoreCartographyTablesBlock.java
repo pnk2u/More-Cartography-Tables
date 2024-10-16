@@ -1,4 +1,4 @@
-package com.pnku.mcgt.block;
+package de.pnku.mcgt.block;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CartographyTableBlock;

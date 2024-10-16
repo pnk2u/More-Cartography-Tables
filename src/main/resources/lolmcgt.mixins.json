@@ -1,6 +1,6 @@
 {
   "required": true ,
-  "package": "com.pnku.mcgt.mixin" ,
+  "package": "de.pnku.mcgt.mixin" ,
   "compatibilityLevel": "JAVA_21" ,
   "mixins": [
     "PoiTypesAccessor"

@@ -1,4 +1,4 @@
-package com.pnku.mcgt.mixin;
+package de.pnku.mcgt.mixin;
 
 import net.minecraft.core.Holder;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
