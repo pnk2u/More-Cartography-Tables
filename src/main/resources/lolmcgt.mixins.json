@@ -3,11 +3,13 @@
   "package": "com.pnku.mcgt.mixin" ,
   "compatibilityLevel": "JAVA_17" ,
   "mixins": [
-    "CartographyTableScreenHandlerMixin" ,
-    "PointOfInterestTypesAccessor"
+    "PoiTypesAccessor"
   ] ,
   "injectors": {
     "defaultRequire": 1
   } ,
-  "minVersion": "0.8"
+  "minVersion": "0.8" ,
+  "client": [
+    "CartographyTableScreenMixin"
+  ]
 }
