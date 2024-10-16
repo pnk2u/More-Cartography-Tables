@@ -21,9 +21,9 @@ public class McgtPointOfInterestTypes {
                 .getPointOfInterestStatesToType();
 
         Holder<PoiType> cartographerEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
-                .getHolder(PoiTypes.CARTOGRAPHER).get();
+                .get(PoiTypes.CARTOGRAPHER).get();
 
-        PoiType cartographerPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.CARTOGRAPHER);
+        PoiType cartographerPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.getValue(PoiTypes.CARTOGRAPHER);
 
         List<BlockState> cartographerBlockStates = new ArrayList<BlockState>(cartographerPoiType.matchingStates);
 

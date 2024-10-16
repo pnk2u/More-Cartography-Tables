@@ -9,7 +9,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.*;
 
-import static com.pnku.mcgt.init.McgtBlockInit.*;
+import static de.pnku.mcgt.init.McgtBlockInit.*;
 
 public class McgtItemInit {
     public static final BlockItem OAK_CARTOGRAPHY_TABLE_I = itemFromBlock(OAK_CARTOGRAPHY_TABLE);

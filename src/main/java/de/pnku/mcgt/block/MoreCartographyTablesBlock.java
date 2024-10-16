@@ -1,7 +1,6 @@
 package de.pnku.mcgt.block;
 
-import com.pnku.mcgt.MoreCartographyTables;
-import net.minecraft.core.registries.BuiltInRegistries;
+import de.pnku.mcgt.MoreCartographyTables;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.block.Blocks;
