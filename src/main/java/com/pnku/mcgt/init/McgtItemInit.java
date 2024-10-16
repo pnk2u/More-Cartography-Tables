@@ -5,20 +5,32 @@ import com.pnku.mcgt.block.MoreCartographyTablesBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.*;
 
-public class McgtItemInit {
-    public static final BlockItem OAK_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.OAK_CARTOGRAPHY_TABLE, new Item.Properties());
-    public static final BlockItem SPRUCE_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.SPRUCE_CARTOGRAPHY_TABLE, new Item.Properties());
-    public static final BlockItem BIRCH_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.BIRCH_CARTOGRAPHY_TABLE, new Item.Properties());
-    public static final BlockItem JUNGLE_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.JUNGLE_CARTOGRAPHY_TABLE, new Item.Properties());
-    public static final BlockItem ACACIA_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.ACACIA_CARTOGRAPHY_TABLE, new Item.Properties());
-    public static final BlockItem MANGROVE_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.MANGROVE_CARTOGRAPHY_TABLE, new Item.Properties());
-    public static final BlockItem CHERRY_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.CHERRY_CARTOGRAPHY_TABLE, new Item.Properties());
-    public static final BlockItem BAMBOO_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.BAMBOO_CARTOGRAPHY_TABLE, new Item.Properties());
-    public static final BlockItem CRIMSON_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.CRIMSON_CARTOGRAPHY_TABLE, new Item.Properties());
-    public static final BlockItem WARPED_CARTOGRAPHY_TABLE_I = new BlockItem(McgtBlockInit.WARPED_CARTOGRAPHY_TABLE, new Item.Properties());
+import static com.pnku.mcgt.init.McgtBlockInit.*;
 
+public class McgtItemInit {
+    public static final BlockItem OAK_CARTOGRAPHY_TABLE_I = itemFromBlock(OAK_CARTOGRAPHY_TABLE);
+    public static final BlockItem SPRUCE_CARTOGRAPHY_TABLE_I = itemFromBlock(SPRUCE_CARTOGRAPHY_TABLE);
+    public static final BlockItem BIRCH_CARTOGRAPHY_TABLE_I = itemFromBlock(BIRCH_CARTOGRAPHY_TABLE);
+    public static final BlockItem JUNGLE_CARTOGRAPHY_TABLE_I = itemFromBlock(JUNGLE_CARTOGRAPHY_TABLE);
+    public static final BlockItem ACACIA_CARTOGRAPHY_TABLE_I = itemFromBlock(ACACIA_CARTOGRAPHY_TABLE);
+    public static final BlockItem MANGROVE_CARTOGRAPHY_TABLE_I = itemFromBlock(MANGROVE_CARTOGRAPHY_TABLE);
+    public static final BlockItem CHERRY_CARTOGRAPHY_TABLE_I = itemFromBlock(CHERRY_CARTOGRAPHY_TABLE);
+    public static final BlockItem BAMBOO_CARTOGRAPHY_TABLE_I = itemFromBlock(BAMBOO_CARTOGRAPHY_TABLE);
+    public static final BlockItem CRIMSON_CARTOGRAPHY_TABLE_I = itemFromBlock(CRIMSON_CARTOGRAPHY_TABLE);
+    public static final BlockItem WARPED_CARTOGRAPHY_TABLE_I = itemFromBlock(WARPED_CARTOGRAPHY_TABLE);
+
+    public static BlockItem itemFromBlock(MoreCartographyTablesBlock moreCartographyTableBlock) {
+        return new BlockItem(moreCartographyTableBlock, setProperties(moreCartographyTableBlock));
+    }
+
+    public static Item.Properties setProperties(MoreCartographyTablesBlock moreCartographyTableBlock) {
+        return new Item.Properties()
+                .setId(ResourceKey.create(Registries.ITEM,BuiltInRegistries.BLOCK.getKey(moreCartographyTableBlock))).useBlockDescriptionPrefix();
+    }
 
     public static void registerItems() {
         registerItem(OAK_CARTOGRAPHY_TABLE_I, Items.CARTOGRAPHY_TABLE);
