@@ -3,13 +3,13 @@ package com.pnku.mcgt.poi;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
 import com.pnku.mcgt.init.McgtBlockInit;
-import com.pnku.mcgt.mixin.PointOfInterestTypesAccessor;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.entry.RegistryEntry;
-import net.minecraft.world.poi.PointOfInterestType;
-import net.minecraft.world.poi.PointOfInterestTypes;
+import com.pnku.mcgt.mixin.PoiTypesAccessor;
+import net.minecraft.core.Holder;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.entity.ai.village.poi.PoiType;
+import net.minecraft.world.entity.ai.village.poi.PoiTypes;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,18 +17,18 @@ import java.util.Map;
 
 public class McgtPointOfInterestTypes {
     public static void init() {
-        Map<BlockState, RegistryEntry<PointOfInterestType>> poiStatesToType = PointOfInterestTypesAccessor
+        Map<BlockState, Holder<PoiType>> poiStatesToType = PoiTypesAccessor
                 .getPointOfInterestStatesToType();
 
-        RegistryEntry<PointOfInterestType> cartographerEntry = Registries.POINT_OF_INTEREST_TYPE
-                .getEntry(PointOfInterestTypes.CARTOGRAPHER).get();
+        Holder<PoiType> cartographerEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
+                .getHolder(PoiTypes.CARTOGRAPHER).get();
 
-        PointOfInterestType cartographerPoiType = Registries.POINT_OF_INTEREST_TYPE.get(PointOfInterestTypes.CARTOGRAPHER);
+        PoiType cartographerPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.CARTOGRAPHER);
 
-        List<BlockState> cartographerBlockStates = new ArrayList<BlockState>(cartographerPoiType.blockStates);
+        List<BlockState> cartographerBlockStates = new ArrayList<BlockState>(cartographerPoiType.matchingStates);
 
         for (Block block : McgtBlockInit.more_cartography_tables) {
-            ImmutableList<BlockState> blockStates = block.getStateManager().getStates();
+            ImmutableList<BlockState> blockStates = block.getStateDefinition().getPossibleStates();
 
             for (BlockState blockState : blockStates) {
                 poiStatesToType.putIfAbsent(blockState, cartographerEntry);
@@ -37,6 +37,6 @@ public class McgtPointOfInterestTypes {
             cartographerBlockStates.addAll(blockStates);
         }
 
-        cartographerPoiType.blockStates = ImmutableSet.copyOf(cartographerBlockStates);
+        cartographerPoiType.matchingStates = ImmutableSet.copyOf(cartographerBlockStates);
     }
 }
