@@ -1,8 +1,8 @@
-package com.pnku.mcgt;
+package de.pnku.mcgt;
 
-import com.pnku.mcgt.init.McgtBlockInit;
-import com.pnku.mcgt.init.McgtItemInit;
-import com.pnku.mcgt.poi.McgtPointOfInterestTypes;
+import de.pnku.mcgt.init.McgtBlockInit;
+import de.pnku.mcgt.init.McgtItemInit;
+import de.pnku.mcgt.poi.McgtPointOfInterestTypes;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
 

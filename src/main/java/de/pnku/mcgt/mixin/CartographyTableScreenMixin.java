@@ -1,6 +1,6 @@
-package com.pnku.mcgt.mixin;
+package de.pnku.mcgt.mixin;
 
-import com.pnku.mcgt.block.MoreCartographyTablesBlock;
+import de.pnku.mcgt.block.MoreCartographyTablesBlock;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.CartographyTableMenu;
 import net.minecraft.world.inventory.ContainerLevelAccess;

@@ -8,7 +8,8 @@
 		"${mod_authors}"
 	],
 	"contact": {
-		"homepage": "https://lieonlion.github.io/LieOnLion/",
+		"email": "contact@pnku.de",
+		"homepage": "https://pnku.de",
 		"sources": "https://github.com/pnk2u/More-Cartography-Tables",
 		"issues": "https://github.com/pnk2u/More-Cartography-Tables/issues"
 	},
@@ -17,7 +18,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "com.pnku.mcgt.MoreCartographyTables"
+			"de.pnku.mcgt.MoreCartographyTables"
 		]
 	},
 	"mixins": [
@@ -33,7 +34,6 @@
 	"custom": {
 		"modmenu": {
 			"links": {
-				"modmenu.youtube": "https://www.youtube.com/@lieonlion?sub_confirmation=1",
 				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
 			}
 		}
