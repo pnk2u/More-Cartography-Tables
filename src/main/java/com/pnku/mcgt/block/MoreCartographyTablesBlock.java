@@ -1,18 +1,20 @@
 package com.pnku.mcgt.block;
 
-import net.minecraft.block.*;
-import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.CartographyTableBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.material.MapColor;
 
 public class MoreCartographyTablesBlock extends CartographyTableBlock {
     public final String cartographytableType;
 
     public MoreCartographyTablesBlock(MapColor colour, String cartographytableType) {
-        super(Settings.copy(Blocks.CARTOGRAPHY_TABLE).mapColor(colour));
+        super(Properties.ofFullCopy(Blocks.CARTOGRAPHY_TABLE).mapColor(colour));
         this.cartographytableType = cartographytableType;
     }
 
-    public MoreCartographyTablesBlock(MapColor colour, BlockSoundGroup sound, String cartographytableType) {
-        super(Settings.copy(Blocks.CARTOGRAPHY_TABLE).mapColor(colour).sounds(sound));
+    public MoreCartographyTablesBlock(MapColor colour, SoundType soundType, String cartographytableType) {
+        super(Properties.ofFullCopy(Blocks.CARTOGRAPHY_TABLE).mapColor(colour).sound(soundType));
         this.cartographytableType = cartographytableType;
     }
 }

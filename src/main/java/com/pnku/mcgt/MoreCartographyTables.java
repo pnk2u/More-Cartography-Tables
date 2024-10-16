@@ -4,7 +4,7 @@ import com.pnku.mcgt.init.McgtBlockInit;
 import com.pnku.mcgt.init.McgtItemInit;
 import com.pnku.mcgt.poi.McgtPointOfInterestTypes;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.util.Identifier;
+import net.minecraft.resources.ResourceLocation;
 
 public class MoreCartographyTables implements ModInitializer {
     public static final String MODID = "lolmcgt";
@@ -16,7 +16,7 @@ public class MoreCartographyTables implements ModInitializer {
         McgtPointOfInterestTypes.init();
     }
 
-    public static Identifier asId(String path) {
-        return Identifier.of(MODID, path);
+    public static ResourceLocation asId(String path) {
+        return new ResourceLocation(MODID, path);
     }
 }
