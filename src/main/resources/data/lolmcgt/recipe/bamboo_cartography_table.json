@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:bamboo_planks"
-    },
-    "@": {
-      "item": "minecraft:paper"
-    }
+    "#": "minecraft:bamboo_planks",
+    "@": "minecraft:paper"
   },
   "pattern": [
     "@@",
