@@ -9,12 +9,12 @@ public class MoreCartographyTablesBlock extends CartographyTableBlock {
     public final String cartographytableType;
 
     public MoreCartographyTablesBlock(MapColor colour, String cartographytableType) {
-        super(Properties.ofFullCopy(Blocks.CARTOGRAPHY_TABLE).mapColor(colour));
+        super(Properties.copy(Blocks.CARTOGRAPHY_TABLE).mapColor(colour));
         this.cartographytableType = cartographytableType;
     }
 
     public MoreCartographyTablesBlock(MapColor colour, SoundType soundType, String cartographytableType) {
-        super(Properties.ofFullCopy(Blocks.CARTOGRAPHY_TABLE).mapColor(colour).sound(soundType));
+        super(Properties.copy(Blocks.CARTOGRAPHY_TABLE).mapColor(colour).sound(soundType));
         this.cartographytableType = cartographytableType;
     }
 }
