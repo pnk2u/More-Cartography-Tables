@@ -10,6 +10,6 @@
   } ,
   "minVersion": "0.8" ,
   "client": [
-    "CartographyTableScreenMixin"
+    "CartographyTableMenuMixin"
   ]
 }
