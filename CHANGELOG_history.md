@@ -1,3 +1,16 @@
+<a name="1.8.2"></a>
+### 1.8.2:
+- Fixes _Cartography Table_ Variants' menus not being accessible when playing on a dedicated server
+
+
+<h2><sub><sub><sup><ins>Download 1.8.2 + 1.21(.1)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Cartography Tables 1.8.2 + 1.21(.1)" href="https://modrinth.com/mod/more-cartography-tables/version/1.8.2">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
+<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
+<a title="Download (Curseforge):&#10;More Cartography Tables 1.8.2 + 1.21(.1)" href="https://www.curseforge.com/minecraft/mc-mods/more-cartography-tables/files/7220048">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
 <a name="1.8.1"></a>
 ### 1.8.1:
 - Add Ukrainian translation (Thanks to [Starman](https://modrinth.com/user/StarmanMine142))
