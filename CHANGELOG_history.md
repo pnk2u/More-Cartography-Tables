@@ -9,6 +9,7 @@
 <a title="Download (Curseforge):&#10;More Cartography Tables 1.8.1 + 1.21(.1)" href="https://www.curseforge.com/minecraft/mc-mods/more-cartography-tables/files/6240633">
 <img width=26 src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
+
 <a name="1.8.0"></a>
 ## 1.8.0:
 - `1.21.4`: Add _**Pale Oak** Cartography Table_
