@@ -61,10 +61,10 @@ Currently available in:
 - Add Ukrainian translation (Thanks to @[StarmanMine142](/../../../../StarmanMine142))
 
 <h2><sub><sub><sup><ins>Download 1.8.1 + 1.21(.1)</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;More Cartography Tables 1.8.1 + 1.21(.1)" href="https://modrinth.com/mod/more-cartography-tables/version/pEwUc4MK">
+<a title="Download (Modrinth):&#10;More Cartography Tables 1.8.1 + 1.21(.1)" href="https://modrinth.com/mod/more-cartography-tables/version/whyPZ0K9">
 <img width=26 src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a>
 <sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
-<a title="Download (Curseforge):&#10;More Cartography Tables 1.8.1 + 1.21(.1)" href="https://www.curseforge.com/minecraft/mc-mods/more-cartography-tables/files/6240633">
+<a title="Download (Curseforge):&#10;More Cartography Tables 1.8.1 + 1.21(.1)" href="https://www.curseforge.com/minecraft/mc-mods/more-cartography-tables/files/6240630">
 <img width=26 src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
