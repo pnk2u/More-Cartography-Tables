@@ -2,7 +2,7 @@ package de.pnku.mcgt.init;
 
 import de.pnku.mcgt.MoreCartographyTables;
 import de.pnku.mcgt.block.MoreCartographyTablesBlock;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -50,6 +50,6 @@ public class McgtItemInit {
     private static void registerItem(BlockItem cartographyTable, Item cartographyTableAfter) {
         Registry.register(BuiltInRegistries.ITEM, MoreCartographyTables.asId(((MoreCartographyTablesBlock) cartographyTable.getBlock()).cartographytableType + "_cartography_table"), cartographyTable);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addAfter(cartographyTableAfter, cartographyTable));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.insertAfter(cartographyTableAfter, cartographyTable));
     }
 }
