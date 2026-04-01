@@ -14,7 +14,8 @@
       <td><strong>Minecraft</strong></td>
       <td>
         <a href="https://modrinth.com/mod/more-cartography-tables/versions?g=1.20.1"><code>1.20.1</code></a><br>
-        <a href="https://modrinth.com/mod/more-cartography-tables/versions?g=1.21&g=1.21.1"><code>1.21(.1)</code></a>, <a href="https://modrinth.com/mod/more-cartography-tables/versions?g=1.21.4&g=1.21.5&g=1.21.6&g=1.21.7&g=1.21.8&g=1.21.9&g=1.21.10"><code>1.21.4</code>~<code>1.21.10</code></a>
+        <a href="https://modrinth.com/mod/more-cartography-tables/versions?g=1.21&g=1.21.1"><code>1.21(.1)</code></a>, <a href="https://modrinth.com/mod/more-cartography-tables/versions?g=1.21.4&g=1.21.5&g=1.21.6&g=1.21.7&g=1.21.8&g=1.21.9&g=1.21.10"><code>1.21.4</code>~<code>1.21.11</code></a><br>
+        <a href="https://modrinth.com/mod/more-cartography-tables/versions?g=26.1"><code>26.1</code></a>
       </td>
     </tr>
   </thead>
@@ -38,11 +39,13 @@
 <a name="translations"></a>
 ### <img height="24" align="left" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/translate.svg"> Translations
 
-Currently available in:
-- English
-- German
-- Chinese Simplified (@[qiuqimc](/../../../../qiuqimc) with [PR #1](../../pull/1), added in [`1.7.1`](./CHANGELOG_history.md#1.7.1))
-- Ukrainian (@[StarmanMine142](/../../../../StarmanMine142) with [PR #2](../../pull/2), added in [`1.8.1`](./CHANGELOG_history.md#1.8.1))
+|Language|Translator|
+|--|--|
+|English||
+|German||
+|Chinese (zh_cn)|@[qiuqimc](/../../../../qiuqimc) with [PR #1](../../pull/1), added in [`1.7.1`](./CHANGELOG_history.md#1.7.1)|
+|Ukrainian|@[StarmanMine142](/../../../../StarmanMine142) with [PR #2](../../pull/2), added in [`1.8.1`](./CHANGELOG_history.md#1.8.1)|
+|Japanese|@[HayaKoh-WeldyAlin](/../../../../HayaKoh-WeldyAlin) with [PR #3](../../pull/3), added in [`1.8.3`](./CHANGELOG_history.md#1.8.3)|
 
 > [!NOTE]
 > > Want to help translate? If you can, please open a PR to the **default branch** [`1.21(.1)`](../../tree/1.21(.1)).  
