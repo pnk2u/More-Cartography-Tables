@@ -59,16 +59,19 @@
 ### Versions
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-<a name="1.8.2"></a>
-#### 1.8.2[*](#footnote-*):
-- Fixes _Cartography Table_ Variants' menus not being accessible when playing on a dedicated server
+<a name="1.8.3"></a>
+#### 1.8.3[*](#footnote-*):
+- `26.1`: Update to <ins>26.1</ins>
+- Add Japanese translation (Thanks to [@HayaKoh-WeldyAlin](https://www.github.com/HayaKoh-WeldyAlin))
 
+<br></br>
+<sub>License update to [`CC-BY-NC-SA-4.0`](https://creativecommons.org/licenses/by-nc-sa/4.0/) (previously [`MIT`](https://choosealicense.com/licenses/mit))</sub>
 
-<h2><sub><sub><sup><ins>Download 1.8.2 + 1.20.1</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;More Cartography Tables 1.8.2 + 1.20.1" href="https://modrinth.com/mod/more-cartography-tables/version/1.8.2">
+<h2><sub><sub><sup><ins>Download 1.8.3 + 1.20.1</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Cartography Tables 1.8.3 + 1.20.1" href="https://www.modrinth.com/mod/pEwUc4MK/version/QtKq4MRU">
 <img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
 <sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
-<a title="Download (Curseforge):&#10;More Cartography Tables 1.8.2 + 1.20.1" href="https://www.curseforge.com/minecraft/mc-mods/more-cartography-tables/files/7220024">
+<a title="Download (Curseforge):&#10;1.8.3 + 1.20.1 - More Cartography Tables" href="https://www.curseforge.com/minecraft/mc-mods/more-cartography-tables/files/7857610">
 <img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
